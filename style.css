@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dcdcdc;
+    text-align: center;
+}
+
+/* NAVBAR */
+nav {
+    background-color: #1746b0;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: #eee;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #ccc;
+}
+
+/* TITULOS */
+h1 {
+    color: #1746b0;
+    margin-top: 30px;
+}
+
+/* BOTÕES GRANDES */
+.big-buttons {
+    margin-top: 80px;
+}
+
+.big-buttons a {
+    display: inline-block;
+    background-color: #1746b0;
+    color: white;
+    padding: 25px 80px;
+    margin: 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* CARDS */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 250px);
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.card {
+    background-color: #cfcfcf;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card p {
+    font-weight: bold;
+    color: #1746b0;
+}
+
+/* LOGIN */
+.login-container {
+    width: 350px;
+    background: #e5e5e5;
+    margin: 150px auto;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+}
+
+.login-container button {
+    background-color: #1746b0;
+    color: white;
+    padding: 12px 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
