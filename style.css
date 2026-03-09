@@ -97,6 +97,11 @@ h1 {
     height: auto;  /* Altura automática */
     z-index: 10;   /* Para ficar acima do fundo */
         }
+        .canto-imagem img{
+
+            width: 1000px;  /* Largura da imagem */
+
+        }
 
 /* LOGIN */
 .login-container {
