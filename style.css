@@ -14,10 +14,15 @@ nav {
     gap: 20px;
 }
 
-.logo {
+.logop {
     color: white;
     font-size: 22px;
     font-weight: bold;
+
+}
+
+.logo img{
+    width: 120px;
 }
 
 nav a {
@@ -72,14 +77,26 @@ h1 {
 }
 
 .card img {
-    width: 100%;
+    width: 200px;
+    height: 200px;
     border-radius: 10px;
 }
 
 .card p {
     font-weight: bold;
     color: #1746b0;
+
+    font-family: 'Segoe UI';
 }
+
+.canto-imagem {
+            position: absolute;
+            bottom: 0px;  /* Distância do fundo */
+            left: -20px;    /* Distância da esquerda */
+            width: 10px;  /* Largura da imagem */
+    height: auto;  /* Altura automática */
+    z-index: 10;   /* Para ficar acima do fundo */
+        }
 
 /* LOGIN */
 .login-container {
@@ -107,4 +124,9 @@ h1 {
     border-radius: 10px;
     font-size: 16px;
     cursor: pointer;
+}
+
+.sobrep {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
