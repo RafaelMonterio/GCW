@@ -22,7 +22,7 @@ nav {
 }
 
 .logo img{
-    width: 120px;
+    width: 80px;
 }
 
 nav a {
@@ -64,7 +64,7 @@ h1 {
 /* CARDS */
 .cards {
     display: grid;
-    grid-template-columns: repeat(2, 250px);
+    grid-template-columns: repeat(3, 250px);
     justify-content: center;
     gap: 40px;
     margin-top: 40px;
@@ -81,6 +81,7 @@ h1 {
     height: 200px;
     border-radius: 10px;
 }
+
 
 .card p {
     font-weight: bold;
@@ -99,7 +100,7 @@ h1 {
         }
         .canto-imagem img{
 
-            width: 1000px;  /* Largura da imagem */
+            width: 500px;  /* Largura da imagem */
 
         }
 
